@@ -4,8 +4,8 @@ public class MainStringTest {
         String s1 = "Hello";
         String s2 = new String("hello");
         String s3 = "Hello";
-        //System.out.println(s1.length());
-        //System.out.println(s1.charAt(1));
+        System.out.println(s1.length());
+        System.out.println(s1.charAt(1));
         printStrColumn("performance");
     }
 
