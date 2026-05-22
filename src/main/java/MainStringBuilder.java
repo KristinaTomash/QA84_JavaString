@@ -28,6 +28,8 @@ public class MainStringBuilder {
         //System.out.println(sbl);
         st = sbl.toString();
         System.out.println(st);
+        boolean res = isPalindrome("l eveL");
+        System.out.println(res);
     }
     public static boolean isPalindrome(String s){
         // s= s.trim();
