@@ -24,8 +24,11 @@ public class MainStringMethods {
 
        int count =  findChar("hello world",' ');
         System.out.println("Count = " + count);
-
-
+        res = isPalindrome("level");
+        if (res == true)
+            System.out.println("palindrome");
+        else
+            System.out.println("not palindrome");
     }
 
     public static boolean isPalindrome(String str){
@@ -62,10 +65,40 @@ public class MainStringMethods {
 
     i = 5   count = 2  sym = 'l'  curr = 'o'
 
-
-
-
-
-
      */
 }
+/*
+                HW
+       1.
+       public static void printCharIndex(String str, char sym)
+               012345678910
+       str  = "hello world" sum = 'l'
+       output:
+       2 3 9
+
+
+       2.try to write isPalindrome()
+
+       3.advanced
+
+       Write a function that gets two string and return the index where the 2nd string begins.
+       For example the function will get 2 strings: “abcdefgh” and “def” and will return 3 since “def” is inside “abcdefgh”
+       and begins in index 3.
+
+            DON’T USE PYTHON BUILT IN FUNCTIONS:
+
+                substring_index(str a, str b);
+
+                    { }
+
+    public static int substringIndex(String s, String sub)
+          01234567
+    s =  “abcdefgh”       sub = “def”
+
+    return 3 if nit exists return -1
+
+
+
+
+ */
+
