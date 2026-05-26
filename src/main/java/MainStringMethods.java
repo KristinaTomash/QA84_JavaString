@@ -76,7 +76,6 @@ public class MainStringMethods {
        output:
        2 3 9
 
-
        2.try to write isPalindrome()
 
        3.advanced
