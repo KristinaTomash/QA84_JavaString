@@ -5,9 +5,16 @@ public class MethodsHomework_7 {
 //    HW -> ADVANCED
     /*
     1.
+                 i
         0123456789
     s->"ccbbbdddda"
     return 5
+
+    currChar  =  'a'    maxChar = 'd'
+    currCount  =  1     maxCount = 4
+
+    s.indexOf('d')
+
 
     2.
     public static void printCapitals(String s)
